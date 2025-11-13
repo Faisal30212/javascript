@@ -1,0 +1,16 @@
+function print(String) {
+    console.log(String);
+}
+var tier="tier1";
+if(tier==="tier1"){
+    print("I will get a package od 10LPA");
+}
+else if(tier==="tier2"){
+    print("I will get a package od 7LPA");
+}
+else if(tier==="tier3"){
+    print("I will get a package od 5LPA");
+}
+else{
+    print("no job");
+}
